@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jashanjot Kaur Dhillon — Full Stack Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+
+  <!-- Canvas background -->
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-2" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Jashanjot Kaur</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navItems" aria-controls="navItems" aria-expanded="false" aria-label="Toggle nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navItems">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="pt-navbar">
+    <!--  Home -->
+    <section id="home" class="section vh-100 d-flex align-items-center">
+      <div class="container text-center text-md-start">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1 class="display-5 fw-bold ">Hi — I’m <span class="accent">Jashanjot Kaur Dhillon</span></h1>
+            <p class="lead mt-3 ">Full Stack Web Developer focused on building responsive, performant web apps. MERN stack and practical experience from internships and real projects.</p>
+
+            <div class="mt-4 ">
+              <a href="#projects" class="btn btn-accent btn-lg me-2">See Projects</a>
+              <a href="Jashanjot_Kaur_Dhillon_Resume_ATS_Optimized.pdf" class="btn btn-outline-light btn-lg" download>Download Resume</a>
+            </div>
+          </div>
+
+          <div class="col-md-5 d-none d-md-block">
+            <!-- small intro card -->
+            <div class="card  p-3 " id="introCard">
+              <div class="card-body">
+                <h5 class="card-title mb-1">Full Stack • MERN </h5>
+                <p class="card-text small  mb-0">Software developer Student @ Mohawk College  • Dean's List • Web Developer intern</p>
+                <div class="mt-3 small">
+                  <span class="badge bg-accent text-dark me-1">SQL</span>
+                  <span class="badge bg-accent text-dark me-1">JavaScript</span>
+                  <span class="badge bg-accent text-dark">React</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-8">
+            <h2 class="">About</h2>
+            <p class="">Develop responsive websites, interactive applications, and data-driven solutions. Focus on clean design, efficiency, and user experience. Work well in teams, embrace challenges, and learn new technologies fast. Driven to create software that makes an impact and grows my skills.</p>
+            <p class="small  ">Available for co-op & junior roles starting January.</p>
+          </div>
+          <div class="col-md-4">
+            <div class="card glass p-3 ">
+              <div class="card-body">
+                <h6 class="mb-1">Education</h6>
+                <p class="small mb-0">Computer System Technician — Mohawk College (2023–2025)</p>
+                <p class="small  mt-2 mb-0">Dean's List of Honours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section bg-soft">
+      <div class="container">
+        <h2 class="">Skills</h2>
+        <div class="row mt-3">
+          <div class="col-sm-6 col-lg-6 ">
+            <div class="skill-card p-3">Languages: JavaScript • Java • C# • PHP • Python • SQL </div>
+          </div>
+          <div class="col-sm-6 col-lg-6 ">
+            <div class="skill-card p-3">Node.js • React.js • Bootstrap • Express.js</div>
+          </div>
+         <div class="row mt-3">
+          <div class="col-sm-6 col-lg-6 ">
+            <div class="skill-card p-3">MongoDB • SQL</div>
+          </div> 
+          <div class="col-sm-6 col-lg-6 ">
+            <div class="skill-card p-3">Git • GitHub Actions • Docker</div>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="">Projects</h2>
+
+        <div class="row mt-4 g-4">
+          <!-- Forever -->
+          <div class="col-md-6 ">
+            <div class="card project-card" data-project="forever">
+              <div class="card-body">
+                <h5 class="card-title">Forever — E-commerce Platform</h5>
+                <p class="card-text text-muted">MERN • Product catalog • Orders • Auth</p>
+                <button class="btn btn-outline-accent btn-sm mt-2 toggle-details">Details</button>
+                <div class="project-details mt-3" hidden>
+                  <p>Built shopping cart, authentication with JWT, order management and a responsive UI. Implemented secure routes and performance optimizations.</p>
+                  <a href="#" class="btn btn-accent btn-sm">View Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wanderlust -->
+          <div class="col-md-6 ">
+            <div class="card project-card" data-project="wanderlust">
+              <div class="card-body">
+                <h5 class="card-title">Wanderlust — Airbnb Clone</h5>
+                <p class="card-text text-muted">MERN • Listings • Bookings • Image upload</p>
+                <button class="btn btn-outline-accent btn-sm mt-2 toggle-details">Details</button>
+                <div class="project-details mt-3" hidden>
+                  <p>Developed listing creation, booking workflow, and user dashboard. Optimized image upload and search routes.</p>
+                  <a href="#" class="btn btn-accent btn-sm">View Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Inventory Game App (assignment) -->
+          <div class="col-md-6 ">
+            <div class="card project-card" data-project="inventory">
+              <div class="card-body">
+                <h5 class="card-title">Inventory Game Web App</h5>
+                <p class="card-text text-muted">PHP • JSON data • Assignment</p>
+                <button class="btn btn-outline-accent btn-sm mt-2 toggle-details">Details</button>
+                <div class="project-details mt-3" hidden>
+                  <p>Implemented PHP endpoints for add/update/remove/list operations and documented code with PHPDoc for assignment requirements.</p>
+                  <a href="#" class="btn btn-accent btn-sm">View Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mood & Weather -->
+          <div class="col-md-6 ">
+            <div class="card project-card" data-project="mood">
+              <div class="card-body">
+                <h5 class="card-title">Mood & Weather Recipe Finder</h5>
+                <p class="card-text text-muted">React • Vite • Nutrition insights</p>
+                <button class="btn btn-outline-accent btn-sm mt-2 toggle-details">Details</button>
+                <div class="project-details mt-3" hidden>
+                  <p>Prototype front-end suggesting recipes based on mood and weather, with 'Learn More' educational panels and nutrition facts.</p>
+                  <a href="#" class="btn btn-accent btn-sm">View Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume 
+    <section id="resume" class="section bg-soft">
+      <div class="container text-center">
+        <h2 class="">Resume</h2>
+        <p class="">Click to download my resume.</p>
+        <a href="Jashanjot_Kaur_Dhillon_Resume_ATS_Optimized.pdf" class="btn btn-accent btn-lg" download>Download Resume</a>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container text-center">
+        <h2 class="">Contact</h2>
+        <p class="">Email: <a class="link-accent" href="mailto:dhillonjashanjot1@gmail.com">dhillonjashanjot1@gmail.com</a></p>
+        <p class="">LinkedIn: <a class="link-accent" href="https://www.linkedin.com/in/jashanjot-dhillon-954338290/" target="_blank" >linkedin.com/in/jashanjotkaurdhillon</a></p>
+        <div class=" social-links" style="margin-top:16px;">
+      <a class="link-accent" href="https://github.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" /></a> | 
+      <a class="link-accent" href="https://www.linkedin.com/in/jashanjot-dhillon-954338290/" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"/></a> | 
+      <a class="link-accent" href="https://www.instagram.com/" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"  /></a>
+    </div>
+      </div>
+    </section>
+
+    <footer class="py-3 text-center ">
+      <small>© 2025 Jashanjot Kaur Dhillon </small>
+    </footer>
+  </main>
+
+  <!-- Bootstrap bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
